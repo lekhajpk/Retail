@@ -48,17 +48,4 @@ python src\warehouse.py
 - **DELETE:** Removes the selected demonstration record after the CREATE, READ, and UPDATE checks.
 - **Other operations:** Extracts and transforms CSV data, removes duplicates, validates types and amounts, and produces transaction summaries.
 
-## Expected evidence
 
-Capture these items for the report:
-
-1. Python code in VS Code.
-2. Terminal output from the script.
-3. pgAdmin list of created tables.
-4. SELECT results for `fact_transactions` and all four dimensions.
-5. CREATE, UPDATE, and DELETE results from the terminal.
-6. PostgreSQL rows in pgAdmin before and after modifications.
-
-## Security
-
-Never commit `.env` or database passwords. Use `.env.example` for shared documentation.
